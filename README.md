@@ -57,4 +57,8 @@ INSERT INTO `tbl_student` (`id`, `name`, `age`, `grade`, `email`, `dob`, `is_act
 
 
 
-configure db.php according to Your 
+configure db.php according to as Your localfile
+define("DB_DSN", "mysql:host=db;dbname=db_student");
+define("DB_USERNAME", "raut"); //as your username
+define("DB_PASSWORD", "raut"); // as your password
+
